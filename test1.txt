@@ -1,2 +1,7 @@
 理解暂存区和分支master的概念
 git add是将文件添加到暂存区中，git commit是将文件从暂存区提交到当前分支master上。
+
+查看工作区和版本库的区别
+
+修改必须先add在暂存区才可以被commit到master上，git是对修改进行管理而不是对文件。
+
