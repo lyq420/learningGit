@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.d1{
+				width: 100px;
+				height: 100px;
+				background-color: skyblue;
+				
+				/*设置动画*/
+				/*animation：综合性的动画设置*/
+				/*animation:donghua1 3s;*/
+				animation-name: donghua1;
+				animation-duration: 3s;
+				animation-timing-function:linear;
+				animation-delay:0.25s;
+				animation-direction: alternate;
+				animation-iteration-count: 3;
+				animation-fill-mode: both;
+				
+			}
+			
+			/*声明动画*/
+			/*关键帧的动画*/
+			@keyframes donghua1{
+				/*0%{}和from{}是一样的*/
+				from{
+					transform: translate(0,0);
+				}
+				33.3%{
+					transform: translate(600px,0);
+				}
+				/*100%和to{}是一样的*/
+				to{
+					transform: translate(600px,600px);
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="d1">
+			
+		</div>
+	</body>
+</html>
