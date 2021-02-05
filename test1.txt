@@ -1,0 +1,2 @@
+理解暂存区和分支master的概念
+git add是将文件添加到暂存区中，git commit是将文件从暂存区提交到当前分支master上。
